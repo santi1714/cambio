@@ -1,0 +1,45 @@
+/*
+Autor: [Tu nombre]
+Archivo: style.css
+Descripción: Estilos para la página de ejemplo con botón.
+*/
+
+/* Estilo general de la página */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Contenedor central */
+.container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Estilo del botón */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    margin-top: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+/* Efecto al pasar el mouse */
+button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
